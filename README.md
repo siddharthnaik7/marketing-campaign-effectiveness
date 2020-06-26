@@ -29,7 +29,7 @@ It was found that there was an upward trend in all quarters
 Hence, the board decided to re-engineer marketing campaigns for the next fashion season release. An exhaustive marketing analysis was performed by the marketing team.
 
 
-<img src="Opti Images/Trends.png" width=1000 height=500>
+<img src="Images/Trends.png" width=1000 height=500>
 
 ## Possible Marketing Strategies
 ### Marketing Analysis
@@ -54,14 +54,14 @@ SEO can be done by training existing team or can be done by outsourcing it to a 
 *	Indigenous team – It includes the team training cost as well as using SEO software of around $200k with an effective rate of 55% and returns of 1000k and ineffective rate of 15% on and returns of $150k.
 *	Third-party SEO – The team decided to team up with VMW analytics, a SEO outsourcing company. The company charges $280k with an effective rate of 65% and returns of 1000k and ineffective rate of 35% on and returns of $300k.
 
-<img src="Opti Images/Marketing Overview.png" width=1000 height=500>
+<img src="Images/Marketing Overview.png" width=1000 height=500>
 
 ### Optimal Decision Tree
 
 After analysing the above optimal decision tree, the best decision for Max Enterprises is to invest in Indirect Communication. If the company decides to choose Social Media as the indirect communication marketing strategy and if it is effective, then the company will earn $500,000. If it is ineffective, the company decides to choose SEO strategy which is led by the Indigenous SEO team in the company. If this marketing strategy is effective, the company will earn $650,000 and if it is ineffective the company would lose $200,000.
 However, the best optimal decision path for Max enterprises would be to choose the indigenous SEO team which benefit the company with a payoff of $430,250.
 
-<img src="Opti Images/Optimal Decision Tree.png" width=1000 height=350>
+<img src="Images/Optimal Decision Tree.png" width=1000 height=350>
 
 ### Risk Profile
 
@@ -72,47 +72,47 @@ The first observation (bar) tells us that the Payoff value is -$200,000 (with 13
 The Second observation (bar) tells us that the Payoff value earned is $500,000 (with 70% chance), if the company chooses social media as the platform for marketing and it is effective.
 The Third observation (bar) tells us that the Payoff value earned is $650,000 (with 16.5% chance), if the plan provided by the indigenous team is effective.
 
-<img src="Opti Images/Risk Profile.png" width=700 height=500>
+<img src="Images/Risk Profile.png" width=700 height=500>
 
 
 ### One Way Sensitivity Analysis
 
-<img src="Opti Images/One Way Sensitivity Analysis.png" width=700 height=500>
+<img src="Images/One Way Sensitivity Analysis.png" width=700 height=500>
 
 The above graph represents the one-way sensitivity analysis for Coupon cost vs the EMV.
 As seen from the chart, if the coupon cost is between $200,000 - $330,000, the value of coupon cost is highly sensitive to variation in the value of EMV. However, we can observe that after $330,000 if we further increase the value for the coupon cost the EMV value remains stagnant ($430,000) and is insensitive to variation in coupon cost.
 
-<img src="Opti Images/One Way Sensitivity Analysis 2.png" width=700 height=500>
+<img src="Images/One Way Sensitivity Analysis 2.png" width=700 height=500>
 
 The above graph represents the one-way sensitivity analysis for Social Media effective probability vs the EMV.
 As seen from the chart, if the effective probability (social media) is between 0.1 – 0.62, the EMV value is insensitive to the variation in change of probability. However, we can observe that after value of probability is increased above 0.62 the EMV value is sensitive to this change. Thus it means that if we increase the probability for social media then the return (pay off) will be higher.
 
-<img src="Opti Images/One Way Sensitivity Analysis 3.png" width=700 height=500>
+<img src="Images/One Way Sensitivity Analysis 3.png" width=700 height=500>
 
 The above graph represents the one-way sensitivity analysis for SMS cost vs the EMV.
 We can infer from the above chart that any investment in SMS cost is insensitive to the variation in EMV and will get the same EMV of approximately $430,280.
 
 
-<img src="Opti Images/One Way Sensitivity Analysis 4.png" width=700 height=500>
+<img src="Images/One Way Sensitivity Analysis 4.png" width=700 height=500>
 
 
 
 ### Strategy Region
 
-<img src="Opti Images/Strategy.png" width=700 height=500>
+<img src="Images/Strategy.png" width=700 height=500>
 
 From the Strategy Region chart of Sensitivity Analysis against variation in coupon cost, we can see that the optimal decision is to choose Direct Communication as the best decision if the coupon cost is between $200,000 - $300,000. After, $300,000 indirect communication is the best optimal decision. 
 Moreover, it can be observed that indirect communication and SEO are insensitive to variation. 
 The decision of SEO will never be the best decision for any value of EMV.
 
-<img src="Opti Images/Strategy 2.png" width=700 height=500>
+<img src="Images/Strategy 2.png" width=700 height=500>
 
 
 From the Strategy Region chart of Sensitivity Analysis against the variation in social media effective probability, we can see that the optimal decision is to choose SEO strategy as the best decision if the social media effective probability is between 0.1 – 0.65. After, 0.65 indirect communication is the best optimal decision. 
 Moreover, it can be observed that direct communication and SEO are insensitive to variation.The decision of direct communication will never be the best decision for any value of EMV.
 
 
-<img src="Opti Images/Strategy 3.png" width=700 height=500>
+<img src="Images/Strategy 3.png" width=700 height=500>
 
 
 From the Strategy Region chart of Sensitivity Analysis against the variation in Newspaper effective probability, we can see that the optimal decision is to choose Indirect communication strategy as the best decision for any changes in the value of newspaper effective probability.
@@ -123,7 +123,7 @@ The decision of direct communication will never be the best decision for any val
 ### Tornado Graph
 
 
-<img src="Opti Images/Tornado.png" width=700 height=500> 
+<img src="Images/Tornado.png" width=700 height=500> 
 
 From the Tornado Graph of Decision Tree of ‘Max Enterprises’ we can analyze and tell that most impact driven parameter considered for sensitivity analysis is the Coupon Cost which has large and highest variation in EMV.
 The second most impact driven parameter is Social Media Effective Probability.
@@ -134,9 +134,9 @@ Finally the parameters, “SMS Cost”, “Email Cost”, “Newspaper effective
 
 ### Two Way Sensitivity Analysis
 
-<img src="Opti Images/Two Way Sensitivity.png" width=700 height=500>
+<img src="Images/Two Way Sensitivity.png" width=700 height=500>
 
-<img src="Opti Images/Two Way Sensitivity 2.png" width=700 height=500>
+<img src="Images/Two Way Sensitivity 2.png" width=700 height=500>
 
 Following is the output for two-way sensitivity analysis. It can be observed that X axis (200 – 600 for indigenous cost) and Y axis (325 -600 for third party SEO company), in this region the optimal decision will be the choose indirect communication as the best marketing strategy. For the remaining coordinates, the best decision would be to select the marketing strategy provided by the third party SEO company.
 Overall, the best optimal decision is to choose indirect communication as the best marketing strategy and to invest money in indigenous SEO team.
